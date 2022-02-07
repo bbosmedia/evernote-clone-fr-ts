@@ -1,0 +1,18 @@
+.list-item {
+	cursor: 'pointer';
+}
+
+.text-section {
+	max-width: 85%;
+}
+
+.delete-icon {
+	position: absolute;
+	right: 5px;
+	top: calc(50% - 15px);
+    transition: 0.3s ease;
+}
+
+.delete-icon:hover {
+	color: red;
+}
